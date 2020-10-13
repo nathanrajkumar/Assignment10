@@ -1,0 +1,79 @@
+body {
+  background: #4912f6;
+  font-family: Arial;
+  margin-left: 120px;
+  margin-right: 120px;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2.5vw;
+  font-weight: normal;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 10px 25px;
+}
+
+.tryForFree {
+  background: linear-gradient(to right, rgba(255,174,60,1) 50%, rgba(209,135,31,1) 100%);
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: Arial;
+  color: white;
+  font-weight: bold;
+
+}
+
+.splash-intro-section-one,
+.splash-intro-section-two {
+  display: flex;
+  align-items: center;
+  padding: 50px 100px 0px 100px;
+  min-width: 0;
+  justify-content: space-between;
+  flex: 0 auto;
+}
+
+.second-row {
+  padding: 0px 250px 100px 250px;
+
+}
+
+.intro-details {
+  z-index: 1;
+  margin-right: -69px;
+  margin-top: 45px;
+}
+
+.intro-image {
+  z-index: 0;
+}
+
+.patented-technology {
+  display: flex;
+  margin-right: 50px;
+  flex-flow: column;
+}
+
+.brain-behaviour {
+  display: flex;
+  margin-right: 50px;
+  flex-flow: column;
+
+}
